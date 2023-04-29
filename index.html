@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cory's Pieces</title>
+    <link rel="icon" href="chess pawn.png">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input id="confirm" type="password">
+    <button onclick="confirmation()">Confirm Purchase?</button>
+    <style>
+            body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      
+      .shop-container {
+        max-width: 800px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      
+      
+      .card {
+        float: left;
+        background: #f5f5f5;
+        width: 250px;
+        margin: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      
+      .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      
+      .card h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+
+      
+      .card p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.2;
+      }
+
+     
+      .card span {
+        font-weight: 600;
+      }
+
+      
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+    <div class="shop-container">
+      <div class="card">
+        <img src="24k 32roekqlr.webp" alt="Product 1" />
+        <h2>Gold King Piece</h2>
+        <p>I recommend the king because this shiny 24k gold gives off a grandmaster vibe and shows true power when given with magnus carlsen.</p>
+        <span>$9,999</span>
+        <button onclick="alert('Thank you for supporting Corys pieces! We hope you enjoy your order. ')">Purchase</button>
+      </div>
+      <div class="card">
+        <img src="queen.webp" alt="Product 2" />
+        <h2>Gold Queen Piece</h2>
+        <p>Ah, the most powerful piece on the board and the most versatile. I present you the queen. Mate threats, forks, and more.</p>
+        <span>$7,999</span>
+        <button onclick="alert('Thank you for supporting Corys pieces! We hope you enjoy your order.')">Purchase</button>
+      </div>
+      <div class="card">
+        <img src="rook.webp" alt="Product 3" />
+        <h2>Gold Rook Piece</h2>
+        <p>The Rook is one of the most versatile piece with a stunning shine and made with pure 24Karat gold. Carved with the best.</p>
+        <span>$5,999</span>
+        <button onclick="alert('Thank you for supporting Corys pieces! We hope you enjoy your order.')">Purchase</button>
+      </div>
+      <div class="card">
+        <img src="" alt="Product 4" />
+        <h2>Gold Knight Piece</h2>
+        <p>The Knight is a very good and sneaky piece as it can fork pieces without the opponent noticing. Watch out rook as it comes in 24k gold.</p>
+        <span>$5,000</span>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <audio src="cdk.mp3" controls list="myplaylist" loop> </audio> 
+    <h5>Thanks to cdk for the music!</h5>
+  </body>
+</html>
